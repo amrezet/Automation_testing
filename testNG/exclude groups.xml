@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="group2">
+    <test name="groTs2">
+        <groups>
+
+            <run>
+                <include name="amr1"/>
+                <exclude name="amr3"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="su_1.groups"/>
+        </classes>
+    </test>
+</suite>

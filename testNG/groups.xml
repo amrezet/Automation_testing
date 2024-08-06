@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="group1">
+    <test name="groTs">
+        <groups>
+            <define name="all groups">
+                <include name="amr1"/>
+                <include name="amr2"/>
+            </define>
+            <run>
+                <include name="all groups"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="su_1.groups"/>
+        </classes>
+    </test>
+</suite>

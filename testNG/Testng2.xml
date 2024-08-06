@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="smoke suite2">
+    <test name="smoke test2">
+        <classes>
+            <class name="su_1.Dependencies">
+                <methods>
+                    <include name="registertest"/>
+                </methods>
+            </class>        
+            <class name="su_1.Assertion">
+                <methods>
+                    <include name="invalidLoginTestCasa"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

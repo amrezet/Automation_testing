@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="smoke test">
+    <suite-files>
+        <suite-file path="Testng.xml"/>
+        <suite-file path="Testng2.xml"/>
+    </suite-files>
+</suite>
