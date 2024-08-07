@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 24 00:14:06 BDT 2022","Sat Sep 24 00:14:47 BDT 2022","40636","Default Suite","TestNG_Practice","TestRunner.SignupTestRunner","TestRunner.SignupTestRunner","doSignup","doSignup",""
+"passed","Sat Sep 24 00:36:42 BDT 2022","Sat Sep 24 00:36:45 BDT 2022","3819","Default Suite","TestNG_Practice","TestRunner.OrderTestRunner","TestRunner.OrderTestRunner","checkProductSummary","User can see product summary","User can view product summary before checkout"
+"failed","Sat Sep 24 00:36:41 BDT 2022","Sat Sep 24 00:36:41 BDT 2022","102","Default Suite","TestNG_Practice","TestRunner.OrderTestRunner","TestRunner.OrderTestRunner","addToCart","User can add cart successfully",""
+"passed","Sat Sep 24 00:36:20 BDT 2022","Sat Sep 24 00:36:37 BDT 2022","17257","Default Suite","TestNG_Practice","TestRunner.OrderTestRunner","TestRunner.OrderTestRunner","searchProduct","User can search product","User can search product successfully"
+"passed","Sat Sep 24 00:36:37 BDT 2022","Sat Sep 24 00:36:41 BDT 2022","4211","Default Suite","TestNG_Practice","TestRunner.OrderTestRunner","TestRunner.OrderTestRunner","chooseProduct","User can choose product","User can choose product from the product list"
